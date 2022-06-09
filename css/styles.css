@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f1e3;
+}
+
+.search {
+    margin: auto 0;
+}
+
+.search-bar {
+    width: 300px;
+    height: 35px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.menu-items {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item {
+    margin: 10px;
+    transition: 0.25s;
+}
+
+.search-btn {
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #34ace0;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #227093;
+    cursor: pointer;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-item:hover {
+    transform: translateY(-0.24em);
+}
+
+.categories {
+    background-color: #f7f1e3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box-4 {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 200;
+}
+
+.category-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+.category-image:hover {
+    transform: translateY(-0.24em);
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.feature-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-6 {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.feature-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.feature-desc {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.product-desc {
+    font-weight: bold;
+}
+
+.order-feature-btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #a55eea;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+}
+
+.order-feature-btn:hover {
+    background-color: #8854d0;
+}
+
+.featured {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #192a56;
+    margin-top: 20px;
+}
+
+.footer-para {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.footer-images {
+    text-align: center;
+}
+
+
+/* css for sign up  */
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url('../images/signup-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#signup-title {
+    font-family: 'Kanit', sans-serif;
+}
+
+.signup-form {
+    border-radius: 10px;
+    width: 400px;
+    height: 530px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.signup-input {
+    margin: 20px 20px;
+    width: 200px;
+    height: 35px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+.signup-btn {
+    font-size: 1.2rem;
+    width: 120px;
+    padding: 5px 20px;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    color: white;
+    transition: 0.25s;
+    border-radius: 20px;
+    border-color: purple
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+    transform: translateY(-0.24em);
+}
+
+.reset-btn {
+    margin-top: 20px;
+}
+
+.signup-img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 60px;
+    top: 11px;
+}
+
+.signup-para {
+    margin-top: 15px;
+}
+
+.signup-anch {
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: red;
+    font-size: 1.2rem;
+}
+
+.signup-anch:hover {
+    color: #2c3e50;
+}
+
+.login-title {
+    font-family: 'Kanit', sans-serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.login-form {
+    border-radius: 10px;
+    width: 400px;
+    height: 470px;
+    text-align: center;
+    padding-top: 65px;
+    background-color: white
+}
+
+.login-btn {
+    font-size: 1.2rem;
+    width: 120px;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.25s;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    transform: translateY(-0.24em);
+}
+
+.pwd-error {
+    color: #EA2027;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* css for order form */
+
+.order-container {
+    background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+    padding-top: 20px;
+}
+
+.order-form {
+    width: 40%;
+    margin: 20px auto;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    padding-top: 20px;
+    padding-left: 20px;
+    ;
+}
+
+.order-title {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.order-upper {
+    display: flex;
+}
+
+.order-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.product-order-desc {
+    margin: 20px 0 20px 100px;
+}
+
+.order-lower {
+    margin-top: 50px;
+}
+
+.product-price {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.order-details {
+    margin: 20px;
+}
+
+.required {
+    color: red;
+}
+
+.order-input {
+    margin-left: 50px;
+    height: 30px;
+    width: 220px;
+}
+
+.order-input-email {
+    margin-left: 76px;
+    height: 30px;
+    width: 220px;
+}
+
+.order-btn {
+    margin: 20px 250px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ff6b81;
+    color: white
+}
+
+.order-btn:hover {
+    background-color: #ff4757;
+    cursor: pointer;
+}
+
+.success {
+    color: #218c74;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    color: #cc1414;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* css for category inside */
+
+.category-inside-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.admin-img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 9px;
+    margin-top: 2px;
+}
